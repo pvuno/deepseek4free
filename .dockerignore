@@ -1,0 +1,13 @@
+node_modules
+tokens.txt
+tokens.txt.bak
+.env
+.env.*
+!/.env.example
+cookies.json
+data
+.git
+coverage
+*.log
+*.bak
+*.tmp

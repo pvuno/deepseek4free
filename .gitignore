@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# secrets — NEVER commit these
+tokens.txt
+tokens.*.txt
+!tokens.txt.example
+tokens.txt.bak
+.env
+.env.*
+!.env.example
+cookies.json
+**/cookies.json
+
+# runtime state
+data/
+*.log
+logs/
+*.pid
+
+# backups / temp
+*.bak
+*.tmp
+*.swp
+
+# tooling
+coverage/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

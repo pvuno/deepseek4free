@@ -1,0 +1,45 @@
+{
+  "name": "deepseek4free",
+  "version": "1.0.0",
+  "description": "Local OpenAI-compatible proxy for chat.deepseek.com with a pure-JS DeepSeekHashV1 proof-of-work solver",
+  "main": "src/index.js",
+  "bin": {
+    "deepseek4free": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "deepseek",
+    "openai",
+    "proxy",
+    "api",
+    "pow",
+    "deepseek-free",
+    "openai-compatible",
+    "chatbot",
+    "reverse-engineering"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvuno/deepseek4free.git"
+  },
+  "homepage": "https://github.com/pvuno/deepseek4free#readme",
+  "bugs": {
+    "url": "https://github.com/pvuno/deepseek4free/issues"
+  },
+  "author": "pvuno",
+  "files": [
+    "src",
+    "README.md",
+    "README.ru.md",
+    "LICENSE",
+    ".env.example",
+    "tokens.txt.example"
+  ]
+}

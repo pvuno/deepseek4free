@@ -1,0 +1,14 @@
+# One entry per line.
+# Lines starting with # and blank lines are ignored.
+#
+# 1) A raw DeepSeek web token (from localStorage: userToken):
+# 8f3a...your...token...
+#
+# 2) Optional auto-login (email:password). The proxy logs in on first use,
+#    gets a fresh token and keeps it in memory:
+# user@example.com:your-password
+#
+# Multiple tokens are rotated round-robin. A token that returns 401/403 is
+# put on cooldown for TOKEN_COOLDOWN_MS.
+
+# replace-me-with-a-real-token
